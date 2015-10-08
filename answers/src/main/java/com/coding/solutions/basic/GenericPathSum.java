@@ -3,7 +3,7 @@ package com.coding.solutions.basic;
 import java.util.Stack;
 
 /**
- * Count the number of paths from the root to any node that sum to a given value
+ * Count the number of paths from any node that sum to a given value
  */
 public class GenericPathSum {
     public GenericPathSum(Node n, int sum) {
