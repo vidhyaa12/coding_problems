@@ -14,12 +14,12 @@ public class StackBoxes {
             return solvedHeights[bottomIndex];
         }
 
-        Box bottomBox  = boxes.get(bottomIndex);
+        Box bottomBox = boxes.get(bottomIndex);
         int maxHeight = 0;
 
         for (int i = 0; i < boxes.size(); i++) {
-            if (boxes.get(i).getLen() > bottomBox.getLen() &&
-                    boxes.get(i).getBreadth() > bottomBox.getBreadth()) {
+            if (boxes.get(i).getLen() < bottomBox.getLen() &&
+                    boxes.get(i).getBreadth() < bottomBox.getBreadth()) {
                 maxHeight = Math.max(maxHeight, getMaxStackHeight(boxes, i, solvedHeights));
             }
         }
