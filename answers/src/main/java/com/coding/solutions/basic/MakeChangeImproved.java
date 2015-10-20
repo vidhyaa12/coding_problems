@@ -1,6 +1,9 @@
 package com.coding.solutions.basic;
 
+import com.google.common.collect.ImmutableList;
+
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -23,12 +26,7 @@ public class MakeChangeImproved {
     }
 
     public static void main(String[] args) {
-        List<Integer> denom = new ArrayList<Integer>();
-        denom.add(1);
-        denom.add(5);
-        denom.add(10);
-        denom.add(25);
-
+        List<Integer> denom = Arrays.asList(1, 5, 10, 25);
         // Use 10 coins with value 1 cent each
         // Use 2 coins with value 5 cents each
         // Use 5 coins with value 1 cent each and 1 coin with value 5 cents
