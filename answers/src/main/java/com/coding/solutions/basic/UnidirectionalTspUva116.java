@@ -57,7 +57,7 @@ class UnidirectionalTspUva116 {
         }
 
         // function that gets a List of rows which terminate in minWeightPathResult
-        List<Integer> startRowIndices = getAllMinWeightPathsEndRowIndices(M, N, minWeightPathResult, best);
+        List<Integer> startRowIndices = getAllMinWeightPathRowStartIndices(M, N, minWeightPathResult, best);
 
         List<Integer> resultPathRowIndices = new ArrayList<Integer>();
 
@@ -93,7 +93,7 @@ class UnidirectionalTspUva116 {
         return minWeightPathResult;
     }
 
-    private static List<Integer> getAllMinWeightPathsEndRowIndices(int M, int N, long minWeightPathResult, long[][] best) {
+    private static List<Integer> getAllMinWeightPathRowStartIndices(int M, int N, long minWeightPathResult, long[][] best) {
         List<Integer> rowIndices = new ArrayList<Integer>();
         for (int i = 0; i < M; i++) {
             if (best[i][0] == minWeightPathResult) {
