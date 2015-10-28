@@ -2,7 +2,7 @@
   <library name="commons-lang3-3.4-javadoc">
     <CLASSES />
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/answers/lib/commons-lang3-3.4-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.4-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES />
   </library>

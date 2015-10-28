@@ -3,7 +3,7 @@
     <CLASSES />
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/answers/lib/commons-lang3-3.4-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.4-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
