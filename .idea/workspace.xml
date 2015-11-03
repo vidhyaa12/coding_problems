@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4faf0dc7-b5a6-43a0-a91a-29545f6445f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LinkedListPalindrome.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/SinglyLinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/SinglyLinkedListNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answers/answers.iml" afterPath="$PROJECT_DIR$/answers/answers.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="coding_problems.iws" />
@@ -90,8 +86,8 @@
       <file leaf-file-name="SinglyLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/SinglyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.028761063">
-              <caret line="132" column="27" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.6681416">
+              <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
               <folding>
                 <element signature="e#4224#4233#0" expanded="true" />
               </folding>
@@ -812,8 +808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.028761063">
-          <caret line="132" column="27" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.6681416">
+          <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
           <folding>
             <element signature="e#4224#4233#0" expanded="true" />
           </folding>
