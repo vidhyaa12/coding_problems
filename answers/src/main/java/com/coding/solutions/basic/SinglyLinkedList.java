@@ -1,15 +1,41 @@
 package com.coding.solutions.basic;
 
+import com.google.common.base.Objects;
+
 public class SinglyLinkedList<T> {
 
     private SinglyLinkedListNode<T> head;
-    private SinglyLinkedListNode<T> tail;
+//    private SinglyLinkedListNode<T> tail;
+
+    SinglyLinkedList(SinglyLinkedListNode<T> start) {
+        this.head = start;
+    }
+
+    public int size() {
+        int sz = 0;
+        SinglyLinkedListNode<T> node = head;
+        while (node != null) {
+            sz++;
+            node = node.getNext();
+        }
+        return sz;
+    }
+
+    public SinglyLinkedListNode<T> get( int i) {
+        int itr = 0;
+        SinglyLinkedListNode<T> node = head;
+        while(itr < i && node != null) {
+            itr++;
+            node = node.getNext();
+        }
+        return node;
+    }
 
     public void add(T element){
 
         SinglyLinkedListNode<T> nd = new SinglyLinkedListNode<T>();
         nd.setValue(element);
-        System.out.println("Adding: "+element);
+        System.out.println("Adding: " + element);
         /**
          * check if the list is empty
          */
@@ -17,12 +43,12 @@ public class SinglyLinkedList<T> {
             //since there is only one element, both head and
             //tail points to the same object.
             head = nd;
-            tail = nd;
         } else {
-            //set current tail next link to new node
-            tail.setNext(nd);
-            //set tail as newly created node
-            tail = nd;
+            SinglyLinkedListNode<T> node = head;
+            while(node.getNext() != null ) {
+                node = node.getNext();
+            }
+            node.setNext(nd);
         }
     }
 
@@ -50,9 +76,6 @@ public class SinglyLinkedList<T> {
             SinglyLinkedListNode<T> nd = new SinglyLinkedListNode<T>();
             nd.setValue(element);
             nd.setNext(tmp.getNext());
-            if(tmp == tail){
-                tail = nd;
-            }
             tmp.setNext(nd);
 
         } else {
@@ -67,9 +90,6 @@ public class SinglyLinkedList<T> {
         }
         SinglyLinkedListNode<T> tmp = head;
         head = tmp.getNext();
-        if(head == null){
-            tail = null;
-        }
         System.out.println("Deleted: "+tmp.getValue());
     }
 
@@ -95,10 +115,7 @@ public class SinglyLinkedList<T> {
         if(refNode != null){
             tmp = refNode.getNext();
             refNode.setNext(tmp.getNext());
-            if(refNode.getNext() == null){
-                tail = refNode;
-            }
-            System.out.println("Deleted: "+tmp.getValue());
+            System.out.println("Deleted: " + tmp.getValue());
         } else {
             System.out.println("Unable to find the given element...");
         }
@@ -127,7 +144,6 @@ public class SinglyLinkedList<T> {
         SinglyLinkedListNode nextToNext = (next != null) ? next.getNext() : null;
 
         while ( current != null ) {
-//            System.out.println(print(prev) + " -> " + print(current) + " -> " + print(next) + " -> " + print(nextToNext));
             current.setNext(prev);
             prev = current;
             current = next;
@@ -137,22 +153,106 @@ public class SinglyLinkedList<T> {
         head = prev;
     }
 
+    public SinglyLinkedList reverse(int start) {
+        if (this == null || this.head == null) {
+            return null;
+        }
+
+        SinglyLinkedListNode prev = null;
+        SinglyLinkedListNode current = head;
+        SinglyLinkedListNode newTailForOriginalList = null;
+
+        int index = 0;
+        while (index < start) {
+            newTailForOriginalList = current;
+            current = current.getNext();
+            index++;
+        }
+
+        SinglyLinkedListNode next = ( current != null) ? current.getNext() : null;
+        SinglyLinkedListNode nextToNext = (next != null) ? next.getNext() : null;
+
+        while ( current != null ) {
+//            System.out.println(print(prev) + " -> " + print(current) + " -> " + print(next) + " -> " + print(nextToNext));
+            current.setNext(prev);
+            prev = current;
+            current = next;
+            next = nextToNext;
+            if (nextToNext != null) nextToNext = nextToNext.getNext();
+        }
+        newTailForOriginalList.setNext(null);
+
+        return new SinglyLinkedList(prev);
+    }
+
     String print(SinglyLinkedListNode node) {
         if (node != null) return "" + node.getValue();
         return "NULL";
     }
 
+    public boolean isPalindrome() {
+        if (this == null || this.head == null || this.head.getNext() == null) {
+            return true;
+        }
+
+        int linkedListSize = size();
+
+        SinglyLinkedListNode current = head;
+
+        int reverseStartPosition;
+        int endIndex;
+        if (linkedListSize % 2 == 0) {
+            reverseStartPosition = linkedListSize / 2;
+            endIndex = reverseStartPosition;
+        } else {
+            reverseStartPosition = (linkedListSize + 1) / 2;
+            endIndex = reverseStartPosition - 1;
+        }
+
+        SinglyLinkedList reversedSubList = reverse(reverseStartPosition);
+        int index = 0;
+        current = head;
+        SinglyLinkedListNode nodeInReversedSublist = reversedSubList.head;
+        while (index < endIndex) {
+            // TODO: clean up to use the equals method in SinglyLinkedList to compare the two lists
+            if (!current.getValue().equals(nodeInReversedSublist.getValue())) {
+                return false;
+            }
+            current = current.getNext();
+            nodeInReversedSublist = nodeInReversedSublist.getNext();
+            index++;
+        }
+        return true;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        SinglyLinkedList<?> that = (SinglyLinkedList<?>) o;
+        return Objects.equal(head, that.head);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(head);
+    }
+
     public static void main(String a[]){
-        SinglyLinkedList<Integer> sl = new SinglyLinkedList<Integer>();
+        SinglyLinkedList<Integer> sl = new SinglyLinkedList<Integer>(null);
         sl.add(3);
         sl.add(32);
-        sl.add(54);
-        sl.add(89);
+        sl.add(33);
+        sl.add(5);
+        sl.add(33);
+        sl.add(32);
+        sl.add(3);
+        System.out.println(sl.isPalindrome());
         sl.traverse();
 
-        sl.reverse();
+        SinglyLinkedList result = sl.reverse(2);
 
         System.out.println("LinkList reversed ");
-        sl.traverse();
+        result.traverse();
     }
 }
