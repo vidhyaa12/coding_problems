@@ -1,21 +1,6 @@
 package com.coding.solutions.basic;
 
 public class BinarySearchInRotatedArray {
-//    public int search(int[] arr, int target, int low, int high) {
-//        if (arr == null) {
-//            return -1;
-//        }
-//        int pivotIndex = findPivot(arr, 0, arr.length - 1);
-//        if (arr[pivotIndex] == target) {
-//            return pivotIndex;
-//        } else if (arr[pivotIndex] > target && target <= arr[high]) {
-//            return binarySearch(arr, target, pivotIndex + 1, high);
-//        } else if (arr[low] <= target && target < arr[pivotIndex]) {
-//            return binarySearch(arr, target, low, pivotIndex);
-//        }
-//        return -1;
-//    }
-
     /* Searches an element target in a pivoted sorted array arr[]
    of size n */
     public int pivotedBinarySearch(int arr[], int n, int target) {
