@@ -42,14 +42,14 @@ public class BinarySearchInRotatedArray {
         return findPivot(arr, mid + 1, high);
     }
 
-    public int binarySearch(int[] arr, int low, int high, int target){
-        while(high >= low){
+    public int binarySearch(int[] arr, int low, int high, int target) {
+        while (high >= low) {
             int pos = low + ((high - low) / 2);
-            if(arr[pos] > target){
+            if (arr[pos] > target) {
                 high = pos - 1;
-            }else if(arr[pos] < target){
+            } else if (arr[pos] < target) {
                 low = pos + 1;
-            }else{
+            } else {
                 return pos;
             }
         }
