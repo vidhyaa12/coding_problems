@@ -25,6 +25,9 @@ public class LongestCommonSubsequence {
                 } else {
                     lcs[i][j] = Math.max(lcs[i][j-1], lcs[i-1][j]);
 
+                    // if the order of conditions in this if - else is changed, we would get another solution for cases where more
+                    // than one solution is correct
+                    // current code returns only one of the solutions
                     if (lcs[i][j] == lcs[i][j-1]) {
                         solution[i][j] = "left";
                     } else {
