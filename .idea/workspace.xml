@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4faf0dc7-b5a6-43a0-a91a-29545f6445f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestCommonSubsequence.java" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestCommonSubsequence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestDecreasingSubsequence.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="coding_problems.iws" />
@@ -26,35 +26,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UnidirectionalTspUva116.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/uva/UnidirectionalTspUva116.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SimpleBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/SimpleBST.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#280#281#0" expanded="false" />
+                <element signature="e#368#369#0" expanded="false" />
+                <element signature="e#400#401#0" expanded="false" />
+                <element signature="e#432#433#0" expanded="false" />
+                <element signature="e#2816#2817#0" expanded="false" />
+                <element signature="e#2843#2844#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongestCommonSubsequence.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LongestCommonSubsequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestCommonSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5660377">
+            <state vertical-scroll-proportion="0.0">
               <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
               <folding>
                 <element signature="e#2386#2387#0" expanded="true" />
                 <element signature="e#2456#2457#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestIncreasingSubsequence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestIncreasingSubsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestDecreasingSubsequence.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestDecreasingSubsequence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.33264464">
+              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,7 +91,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-              <folding />
+              <folding>
+                <element signature="e#3157#3166#0" expanded="false" />
+                <element signature="e#3563#3572#0" expanded="false" />
+                <element signature="e#4668#4677#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,7 +105,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#542#553#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,7 +118,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="245" column="8" selection-start-line="245" selection-start-column="8" selection-end-line="245" selection-end-column="8" />
-              <folding />
+              <folding>
+                <element signature="e#252#253#0" expanded="false" />
+                <element signature="e#285#286#0" expanded="false" />
+                <element signature="e#6958#6959#0" expanded="false" />
+                <element signature="e#7003#7004#0" expanded="false" />
+                <element signature="e#7106#7115#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,17 +144,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindFirstBinarySearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/FindFirstBinarySearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding />
+              <folding>
+                <marker date="1448267574000" expanded="true" signature="66128:66176" placeholder="..." />
+                <marker date="1448267574000" expanded="true" signature="66128:66191" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,6 +193,7 @@
         <option value="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestCommonSubseq.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestCommonSubsequence.java" />
+        <option value="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestDecreasingSubsequence.java" />
       </list>
     </option>
   </component>
@@ -191,7 +215,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="665" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -524,7 +548,7 @@
     </configuration>
     <configuration default="false" name="" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.coding.solutions.basic.LongestCommonSubsequence" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.solutions.basic.LongestDecreasingSubsequence" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -555,7 +579,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="665" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -574,7 +598,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27083334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4194631" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -656,22 +680,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LinkedListPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/SinglyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="245" column="8" selection-start-line="245" selection-start-column="8" selection-end-line="245" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/BinarySearchInRotatedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -708,7 +716,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding />
+          <folding>
+            <element signature="e#3157#3166#0" expanded="false" />
+            <element signature="e#3563#3572#0" expanded="false" />
+            <element signature="e#4668#4677#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -716,7 +728,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#542#553#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -724,7 +739,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="245" column="8" selection-start-line="245" selection-start-column="8" selection-end-line="245" selection-end-column="8" />
-          <folding />
+          <folding>
+            <element signature="e#252#253#0" expanded="false" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#6958#6959#0" expanded="false" />
+            <element signature="e#7003#7004#0" expanded="false" />
+            <element signature="e#7106#7115#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -794,7 +815,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding />
+          <folding>
+            <element signature="e#3157#3166#0" expanded="false" />
+            <element signature="e#3563#3572#0" expanded="false" />
+            <element signature="e#4668#4677#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -802,7 +827,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#542#553#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -810,7 +838,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="245" column="8" selection-start-line="245" selection-start-column="8" selection-end-line="245" selection-end-column="8" />
-          <folding />
+          <folding>
+            <element signature="e#252#253#0" expanded="false" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#6958#6959#0" expanded="false" />
+            <element signature="e#7003#7004#0" expanded="false" />
+            <element signature="e#7106#7115#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -991,7 +1025,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding />
+          <folding>
+            <element signature="e#3157#3166#0" expanded="false" />
+            <element signature="e#3563#3572#0" expanded="false" />
+            <element signature="e#4668#4677#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -999,7 +1037,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="245" column="8" selection-start-line="245" selection-start-column="8" selection-end-line="245" selection-end-column="8" />
-          <folding />
+          <folding>
+            <element signature="e#252#253#0" expanded="false" />
+            <element signature="e#285#286#0" expanded="false" />
+            <element signature="e#6958#6959#0" expanded="false" />
+            <element signature="e#7003#7004#0" expanded="false" />
+            <element signature="e#7106#7115#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1007,7 +1051,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#542#553#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,7 +1070,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#280#281#0" expanded="false" />
+            <element signature="e#368#369#0" expanded="false" />
+            <element signature="e#400#401#0" expanded="false" />
+            <element signature="e#432#433#0" expanded="false" />
+            <element signature="e#2816#2817#0" expanded="false" />
+            <element signature="e#2843#2844#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,7 +1085,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1448267574000" expanded="true" signature="66128:66176" placeholder="..." />
+            <marker date="1448267574000" expanded="true" signature="66128:66191" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1045,12 +1102,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestCommonSubsequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5660377">
+        <state vertical-scroll-proportion="0.0">
           <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
           <folding>
             <element signature="e#2386#2387#0" expanded="true" />
             <element signature="e#2456#2457#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestDecreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.33264464">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
