@@ -14,7 +14,7 @@ public class LongestDecreasingSubsequence {
         lds[0] = 1;
         prev[0] = -1;
         for (int k = 1; k < arr.length; k++) {
-            lds[k] = 0;
+            lds[k] = 1;
             prev[k] = -1;
         }
 
@@ -52,23 +52,27 @@ public class LongestDecreasingSubsequence {
         return maxLength;
     }
 
+    public static void computeAndDisplayLDSL(int[] arr) {
+        System.out.println("Input = " + Arrays.toString(arr));
+        System.out.println("Length of the longest decreasing subsequence = " + getLDSLength(arr));
+    }
+
     public static void main(String[] args) {
+        /*
         int[] arr1 = {1, -1, 2, -2, 3, 5};
-        System.out.println("Input = " + Arrays.toString(arr1));
-        System.out.println("Length of the longest decreasing subsequence = " + getLDSLength(arr1));
-
-        System.out.println();
         int[] arr2 = {-1, -2, -3, -4, -5};
-        System.out.println("Input = " + Arrays.toString(arr2));
-        System.out.println("Length of the longest decreasing subsequence = " + getLDSLength(arr2));
-
-        System.out.println();
         int[] arr3 = {1, 2, 3, 4, 5};
-        System.out.println("Input = " + Arrays.toString(arr3));
-        System.out.println("Length of the longest decreasing subsequence = " + getLDSLength(arr3));
-
         int[] arr4 = {1, 2, 3, -4, 5, 6, 7, 8};
-        System.out.println("Input = " + Arrays.toString(arr4));
-        System.out.println("Length of the longest decreasing subsequence = " + getLDSLength(arr4));
+
+        computeAndDisplayLDSL(arr1);
+        computeAndDisplayLDSL(arr2);
+        computeAndDisplayLDSL(arr3);
+        computeAndDisplayLDSL(arr4);
+        */
+
+        int[] arr5 = {1};
+        int[] arr6 = {1,5,4};
+        computeAndDisplayLDSL(arr5);
+        computeAndDisplayLDSL(arr6);
     }
 }

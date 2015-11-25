@@ -46,12 +46,12 @@ public class CatcherLds {
 
     public static int getLDSLength(List<Integer> numbers) {
         int[] prev = new int[numbers.size()];
-        int[] lis = new int[numbers.size()];
+        int[] lds = new int[numbers.size()];
 
-        lis[0] = 1;
+        lds[0] = 1;
         prev[0] = -1;
         for (int k = 1; k < numbers.size(); k++) {
-            lis[k] = 0;
+            lds[k] = 1;
             prev[k] = -1;
         }
 
@@ -59,8 +59,8 @@ public class CatcherLds {
         for (int i = 1; i < numbers.size(); i++) {
             for (int j = 0; j < i; j++) {
                 if (numbers.get(j) >= numbers.get(i)) {
-                     if ((lis[j] + 1) > lis[i]) {
-                        lis[i] = lis[j] + 1;
+                     if ((lds[j] + 1) > lds[i]) {
+                        lds[i] = lds[j] + 1;
                         prev[i] = j;
                     }
                 }
@@ -69,9 +69,9 @@ public class CatcherLds {
 
         int maxLength = 0;
         int lisEndIndex = 0;
-        for (int i = 0; i < lis.length; i++) {
-            if (lis[i] > maxLength) {
-                maxLength = lis[i];
+        for (int i = 0; i < lds.length; i++) {
+            if (lds[i] > maxLength) {
+                maxLength = lds[i];
                 lisEndIndex = i;
             }
         }
@@ -85,7 +85,7 @@ public class CatcherLds {
         }
 
         Collections.reverse(result);
-        // System.out.println("LIS = " + Arrays.toString(result.toArray()));
+        // System.out.println("Longest decreasing subsequence = " + Arrays.toString(result.toArray()));
         return maxLength;
     }
 
@@ -100,10 +100,12 @@ public class CatcherLds {
                 numbers.add(num);
             } else if (numbers.size() > 0) {
                 count++;
+                if (count > 1) {
+                    System.out.println();
+                }
                 System.out.println("Test #" + count + ":");
                 System.out.println("  maximum possible interceptions: " + getLDSLength(numbers));
                 numbers.clear();
-                System.out.println();
             }
         }
     }
