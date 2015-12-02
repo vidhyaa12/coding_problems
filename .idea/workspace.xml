@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4faf0dc7-b5a6-43a0-a91a-29545f6445f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/ParenthesesGenerator.java" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/ParenthesesGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/MazeBackTracking.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="coding_problems.iws" />
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParenthesesGenerator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ParenthesesGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/ParenthesesGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -99,7 +99,17 @@
         <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestCommonSubseq.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="9" selection-start-line="7" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MazeBackTracking.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/MazeBackTracking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.0333333">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -108,8 +118,8 @@
       <file leaf-file-name="SinglyLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/SinglyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="245" column="8" selection-start-line="245" selection-start-column="8" selection-end-line="245" selection-end-column="8" />
+            <state vertical-scroll-proportion="15.333333">
+              <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,6 +171,7 @@
         <option value="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/uva/CatcherLds.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/ParenthesesGenerator.java" />
+        <option value="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/MazeBackTracking.java" />
       </list>
     </option>
   </component>
@@ -569,7 +580,7 @@
     </configuration>
     <configuration default="false" name="" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.coding.solutions.basic.ParenthesesGenerator" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.solutions.basic.MazeBackTracking" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -712,14 +723,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/SinglyLinkedListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/uva/UnidirectionalTspUva116.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -763,6 +766,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -996,6 +1000,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,14 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4954955">
           <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestCommonSubseq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="9" selection-start-line="7" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1095,18 +1092,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/SinglyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/ParenthesesGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="245" column="8" selection-start-line="245" selection-start-column="8" selection-end-line="245" selection-end-column="8" />
+          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/ParenthesesGenerator.java">
+    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state vertical-scroll-proportion="15.333333">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LongestCommonSubseq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/MazeBackTracking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0333333">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
           <folding />
         </state>
       </provider>
