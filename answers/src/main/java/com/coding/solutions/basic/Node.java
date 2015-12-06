@@ -14,6 +14,10 @@ public class Node {
         this.right = right;
     }
 
+    public Node(int value) {
+        this.value = value;
+    }
+
     public Node getLeft() {
         return left;
     }
