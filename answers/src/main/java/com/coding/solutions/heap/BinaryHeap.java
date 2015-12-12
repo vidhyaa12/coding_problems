@@ -10,6 +10,15 @@ public class BinaryHeap<T extends Comparable<T>> {
     private ArrayList<T> nodes;
     private int heapSize;
 
+    public BinaryHeap() {
+        this(DEFAULT_HEAP_CAPACITY);
+    }
+
+    public BinaryHeap(int heapCapacity) {
+        nodes = new ArrayList<T>(heapCapacity);
+        heapSize = 0;
+    }
+
     public void heapifyUp(int index) {
         int parentIndex = (int) Math.floor(index / 2);
         boolean isHeapPropertySatisfied = false;
@@ -49,6 +58,52 @@ public class BinaryHeap<T extends Comparable<T>> {
             nodes.set(index, leftChild);
             heapifyDown(leftChildIndex);
         }
+    }
 
+    public T pop() {
+        if (heapSize > 0) {
+            T lastLeaf = nodes.get(heapSize - 1);
+            T root = nodes.get(0);
+
+            nodes.set(0, lastLeaf);
+            nodes.remove(heapSize - 1);
+            heapSize--;
+            heapifyDown(0);
+            return root;
+        } else {
+            return null;
+        }
+    }
+
+    public void insert(T node) {
+        nodes.add(heapSize, node);
+        heapifyUp(heapSize);
+        heapSize++;
+    }
+
+    public int size() {
+        return heapSize;
+    }
+
+    public void print() {
+        for (T node : nodes) {
+            System.out.print(node + " ");
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        BinaryHeap<Integer> bh = new BinaryHeap<Integer>();
+
+        for (int i = 10; i > 0; i--) {
+            bh.insert(i);
+        }
+
+        bh.print();
+        while (bh.size() > 0) {
+            Integer top = bh.pop();
+            System.out.println("Top element " + top + " has been popped , size = " + bh.size());
+            bh.print();
+        }
     }
 }
