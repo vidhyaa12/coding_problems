@@ -1,4 +1,4 @@
-package com.coding.solutions.basic;
+package com.coding.solutions.linkedlists;
 
 import com.google.common.base.Objects;
 
