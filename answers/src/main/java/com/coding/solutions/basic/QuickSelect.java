@@ -4,13 +4,16 @@ import java.util.Random;
 
 /**
  * http://rosettacode.org/wiki/Quickselect_algorithm#Java
- * In quicksort, there is a subprocedure called partition that can, in linear time,
+ * In quicksort, there is a sub-procedure called partition that can, in linear time,
  * group a list (ranging from indices left to right) into two parts, those less than a certain element,
  * and those greater than or equal to the element.
  */
 
 public class QuickSelect {
 
+    //  group a list (ranging from indices left to right) into two parts, those less than a certain element (i.e, pivot),
+    // and those greater than or equal to the element.
+    // performs a partition about the element arr[pivot]
     private static <E extends Comparable<? super E>> int partition(E[] arr, int left, int right, int pivot) {
         E pivotVal = arr[pivot];
         swap(arr, pivot, right);
@@ -30,6 +33,7 @@ public class QuickSelect {
         int right = arr.length - 1;
         Random rand = new Random();
         while (right >= left) {
+            // select a pivotIndex between left and right
             int pivotIndex = partition(arr, left, right, rand.nextInt(right - left + 1) + left);
             if (pivotIndex == n) {
                 return arr[pivotIndex];
