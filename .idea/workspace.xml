@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4faf0dc7-b5a6-43a0-a91a-29545f6445f8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/BuildHeap.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/BinaryHeap.java" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/BinaryHeap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="coding_problems.iws" />
@@ -88,12 +86,12 @@
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
               <folding>
-                <marker date="1449968726000" expanded="true" signature="69867:69884" placeholder="..." />
-                <marker date="1449968726000" expanded="true" signature="69867:69902" placeholder="..." />
-                <marker date="1449968726000" expanded="true" signature="69867:69915" placeholder="..." />
-                <marker date="1449968726000" expanded="true" signature="69867:69930" placeholder="..." />
+                <marker date="1449968878000" expanded="true" signature="69514:69531" placeholder="..." />
+                <marker date="1449968878000" expanded="true" signature="69514:69549" placeholder="..." />
+                <marker date="1449968878000" expanded="true" signature="69514:69562" placeholder="..." />
+                <marker date="1449968878000" expanded="true" signature="69514:69577" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -1149,12 +1147,12 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding>
-            <marker date="1449968726000" expanded="true" signature="69867:69884" placeholder="..." />
-            <marker date="1449968726000" expanded="true" signature="69867:69902" placeholder="..." />
-            <marker date="1449968726000" expanded="true" signature="69867:69915" placeholder="..." />
-            <marker date="1449968726000" expanded="true" signature="69867:69930" placeholder="..." />
+            <marker date="1449968878000" expanded="true" signature="69514:69531" placeholder="..." />
+            <marker date="1449968878000" expanded="true" signature="69514:69549" placeholder="..." />
+            <marker date="1449968878000" expanded="true" signature="69514:69562" placeholder="..." />
+            <marker date="1449968878000" expanded="true" signature="69514:69577" placeholder="..." />
           </folding>
         </state>
       </provider>
