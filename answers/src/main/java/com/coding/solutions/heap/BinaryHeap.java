@@ -1,6 +1,7 @@
 package com.coding.solutions.heap;
 
 import java.util.ArrayList;
+import java.util.Collection;
 
 /**
  * Max heap implementation
@@ -20,7 +21,7 @@ public class BinaryHeap<T extends Comparable<T>> {
     }
 
     public void heapifyUp(int index) {
-        int parentIndex = (int) Math.floor(index / 2);
+        int parentIndex = (int) Math.floor((index - 1) / 2);
         boolean isHeapPropertySatisfied = false;
 
         while (!isHeapPropertySatisfied && parentIndex < index) {
@@ -34,7 +35,7 @@ public class BinaryHeap<T extends Comparable<T>> {
             }
 
             index = parentIndex;
-            parentIndex = (int) Math.floor(index / 2);
+            parentIndex = (int) Math.floor((index - 1) / 2);
         }
     }
 
@@ -79,6 +80,12 @@ public class BinaryHeap<T extends Comparable<T>> {
         nodes.add(heapSize, node);
         heapifyUp(heapSize - 1);
         heapSize++;
+    }
+
+    public void addAll(Collection<? extends T> c) {
+        for (T t : c) {
+            this.insert(t);
+        }
     }
 
     public int size() {
