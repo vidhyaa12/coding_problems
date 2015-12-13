@@ -77,7 +77,7 @@ public class BinaryHeap<T extends Comparable<T>> {
 
     public void insert(T node) {
         nodes.add(heapSize, node);
-        heapifyUp(heapSize);
+        heapifyUp(heapSize - 1);
         heapSize++;
     }
 
