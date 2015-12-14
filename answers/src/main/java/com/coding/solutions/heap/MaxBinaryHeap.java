@@ -113,4 +113,8 @@ public class MaxBinaryHeap<T extends Comparable<T>> {
             bh.print();
         }
     }
+
+    public ArrayList<T> getNodes() {
+        return nodes;
+    }
 }
