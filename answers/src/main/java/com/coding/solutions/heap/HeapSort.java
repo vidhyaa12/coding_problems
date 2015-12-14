@@ -12,11 +12,11 @@ public class HeapSort<T extends Comparable<T>> {
         if (list == null || list.isEmpty()) {
             return;
         }
-        BinaryHeap<T> binaryHeap = new BinaryHeap(list.size());
-        binaryHeap.addAll(list);
+        MaxBinaryHeap<T> maxBinaryHeap = new MaxBinaryHeap(list.size());
+        maxBinaryHeap.addAll(list);
 
         for (int i = list.size() - 1; i >= 0; i--) {
-            list.set(i, binaryHeap.pop());
+            list.set(i, maxBinaryHeap.pop());
         }
     }
 

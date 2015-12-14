@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4faf0dc7-b5a6-43a0-a91a-29545f6445f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/linkedlists/KthNodeFromEnd.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/LinkedListPalindrome.java" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/linkedlists/LinkedListPalindrome.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/SinglyLinkedList.java" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/linkedlists/SinglyLinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/basic/SinglyLinkedListNode.java" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/linkedlists/SinglyLinkedListNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/MinBinaryHeap.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/BinaryHeap.java" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/MaxBinaryHeap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/HeapSort.java" afterPath="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/HeapSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="coding_problems.iws" />
@@ -29,14 +28,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BinaryHeap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/BinaryHeap.java">
+      <file leaf-file-name="MaxBinaryHeap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/MaxBinaryHeap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2930#2939#0" expanded="true" />
+                <element signature="e#2945#2954#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KthNodeFromEnd.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinBinaryHeap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/MinBinaryHeap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4">
+              <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KthNodeFromEnd.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/linkedlists/KthNodeFromEnd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7">
-              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding>
                 <element signature="e#1031#1040#0" expanded="true" />
                 <element signature="e#1281#1290#0" expanded="true" />
@@ -172,6 +181,8 @@
         <option value="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/HeapSort.java" />
         <option value="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/linkedlists/LinkedListPalindrome.java" />
         <option value="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/linkedlists/KthNodeFromEnd.java" />
+        <option value="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/MaxBinaryHeap.java" />
+        <option value="$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/MinBinaryHeap.java" />
       </list>
     </option>
   </component>
@@ -378,7 +389,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="linkedlists" />
+              <option name="myItemId" value="heap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -436,6 +447,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.coding.solutions.heap" />
       <recent name="com.coding.solutions.basic" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -617,7 +629,7 @@
     </configuration>
     <configuration default="false" name="" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.coding.solutions.linkedlists.KthNodeFromEnd" />
+      <option name="MAIN_CLASS_NAME" value="com.coding.solutions.heap.MinBinaryHeap" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -766,14 +778,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/uva/Dollars.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1006,7 +1010,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
-            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1024,7 +1028,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1116,27 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/BinaryHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2930#2939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/linkedlists/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1169,12 +1152,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/linkedlists/KthNodeFromEnd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
             <element signature="e#1031#1040#0" expanded="true" />
             <element signature="e#1281#1290#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/MaxBinaryHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2945#2954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answers/src/main/java/com/coding/solutions/heap/MinBinaryHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4">
+          <caret line="104" column="36" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
